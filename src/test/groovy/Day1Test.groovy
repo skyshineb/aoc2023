@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test
 
-class TestDay1 {
+class Day1Test {
     def input = "1abc2\n" +
             "pqr3stu8vwx\n" +
             "a1b2c3d4e5f\n" +
@@ -27,7 +27,7 @@ class TestDay1 {
     void fullInput(){
         def solver = new Day1()
         def input = new File(getClass().getResource("day1/input.txt").toURI()).text
-        print(solver.solve(input))
+        println(solver.solve(input))
     }
 
 }
