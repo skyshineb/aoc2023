@@ -18,4 +18,15 @@ Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11"""
         def data = new File(getClass().getResource("day4/input.txt").toURI()).text
         println(Day4.part1(data))
     }
+
+    @Test
+    void part2Partial() {
+        assert Day4.part2(input) == 30
+    }
+
+    @Test
+    void part2Full() {
+        def data = new File(getClass().getResource("day4/input.txt").toURI()).text
+        println(Day4.part2(data))
+    }
 }
