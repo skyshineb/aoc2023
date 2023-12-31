@@ -1,3 +1,5 @@
+package day4
+
 import groovy.transform.TupleConstructor
 
 class Day4 {

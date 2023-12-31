@@ -1,3 +1,5 @@
+package day1
+
 class Day1 {
     def override = Map.of(
             "one", "o1e",

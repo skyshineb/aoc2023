@@ -1,3 +1,4 @@
+import day2.Day2
 import org.junit.jupiter.api.Test
 
 class Day2Test {

@@ -1,3 +1,5 @@
+package day3
+
 class Day3 {
     static long getNums(String s, int pos, boolean[][] bitmap, int bitmapRow) {
         if (s[pos].isNumber() && !bitmap[bitmapRow][pos]) {
